@@ -1,3 +1,36 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+#header1 {
+    background: pink;
+}
+
 p {
-    background-color: lightblue;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p1 {
+    background: lightgreen;
+}
+
+#p2 {
+    background: lightseagreen;
+}
+
+#p3 {
+    background: lightpink;
+}
+
+.pclass {
+    margin: 50px;
+    margin-bottom: 0%;
+    /* padding: 20px; */
+    /* border-radius: 20px; */
+    border-color: rgb(84, 7, 156);
+}
+
+#cowpic {
+    margin: auto 0;
 }
